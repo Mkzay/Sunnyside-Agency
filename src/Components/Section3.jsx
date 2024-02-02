@@ -1,6 +1,6 @@
 const Section3 = () => {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col lg:flex-row">
       <div className="flex-1 flex items-center justify-center relative">
         <img
           className="md:hidden"
@@ -8,11 +8,11 @@ const Section3 = () => {
           alt="image-transform"
         />
         <img
-          className="hidden md:flex"
+          className="hidden md:flex w-full"
           src="./desktop/image-graphic-design.jpg"
           alt="image-transform"
         />
-        <div className="absolute flex items-center justify-center flex-col gap-5 bottom-12 md:px-28">
+        <div className="absolute flex items-center justify-center flex-col gap-5 bottom-12 px-5 md:bottom-36 md:px-28 lg:bottom-12">
           <h2 className="text-4xl font-Fraunces font-black text-Darkdesaturatedcyan">
             Great Design
           </h2>
@@ -30,11 +30,11 @@ const Section3 = () => {
           alt="image-transform"
         />
         <img
-          className="hidden md:flex"
+          className="hidden md:flex w-full"
           src="./desktop/image-photography.jpg"
           alt="image-transform"
         />
-        <div className="absolute flex items-center justify-center flex-col gap-5 bottom-12 px-5 md:px-28">
+        <div className="absolute flex items-center justify-center flex-col gap-5 bottom-12 px-5 md:bottom-36 md:px-28 lg:bottom-12">
           <h2 className="text-4xl font-Fraunces font-black text-Darkblue">
             Photography
           </h2>

@@ -25,8 +25,28 @@ const Navbar = () => {
         >
           <img src="./icon-hamburger.svg" />
         </button>
-        {openBar && (
-          <ul className="absolute top-24 right-4 z-10 flex items-center justify-center flex-col gap-10 w-[90%] h-80 bg-White text-xl font-Barlow font-semibold">
+        <ul
+          className={`${
+            openBar
+              ? "translate-y-0 duration-1000"
+              : " -translate-y-[100rem] duration-1000 fade"
+          } absolute top-20 right-4 z-10 flex items-center justify-center flex-col gap-10 w-[20rem] h-80 bg-White text-xl font-Barlow font-semibold`}
+        >
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li className="bg-Yellow rounded-full py-2 px-5 text-lg font-Fraunces uppercase">
+            Contact
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
+
+/*          <ul className="absolute top-24 right-4 z-10 flex items-center justify-center flex-col gap-10 w-[90%] h-80 bg-White text-xl font-Barlow font-semibold ">
             <li>About</li>
             <li>Services</li>
             <li>Projects</li>
@@ -34,10 +54,4 @@ const Navbar = () => {
               Contact
             </li>
           </ul>
-        )}
-      </div>
-    </nav>
-  );
-};
-
-export default Navbar;
+*/

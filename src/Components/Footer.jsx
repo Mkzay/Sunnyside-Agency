@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="flex items-center justify-center flex-col gap-8 py-20 px-10 bg-Darkmoderatecyan font-Barlow text-Darkdesaturatedcyan">
       <h2 className="text-4xl font-semibold">sunnyside</h2>
-      <ul className="flex  justify-center text-xl font-semibold pb-8 gap-16">
+      <ul className="flex  justify-center text-xl font-semibold pb-8 gap-10">
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>

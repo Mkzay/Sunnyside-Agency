@@ -1,11 +1,11 @@
 const Testimonial = () => {
   return (
     <div className="flex flex-col items-center justify-center py-14 px-5 gap-10 md:gap-16">
-      <h2 className="text-xl text-Grayishblue font-Fraunces font-black uppercase tracking-[0.2rem]">
+      <h2 className="text-xl text-Grayishblue font-Fraunces font-black uppercase tracking-[0.1rem]">
         Client Testimonials
       </h2>
-      <div className="flex flex-col gap-20 md:flex-row">
-        <div className="flex flex-col items-center justify-center text-center gap-10">
+      <div className="flex flex-col gap-20 lg:flex-row">
+        <div className="flex flex-col items-center justify-center text-center gap-10 md:px-24 lg:px-5">
           <img
             className="rounded-full w-20 h-20"
             src="./image-emily.jpg"
@@ -25,7 +25,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center text-center gap-10">
+        <div className="flex flex-col items-center justify-center text-center gap-10 md:px-24 lg:px-5">
           <img
             className="rounded-full w-20 h-20"
             src="./image-thomas.jpg"
@@ -45,7 +45,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center text-center gap-10">
+        <div className="flex flex-col items-center justify-center text-center gap-10 md:px-24 lg:px-5">
           <img
             className="rounded-full w-20 h-20"
             src="./image-jennie.jpg"
